@@ -5,17 +5,17 @@
 
 A simple Laravel 5.x product documentation package. 
 
-Doc Weaver is suitable for product documentation and/or knowledge bases. Converts folder(s) of .md files into full-bread complete documentation. Doc Weaver is inspired by Laravel's very own documentation.
+Docweaver is suitable for product documentation and/or knowledge bases. Converts folder(s) of .md files into full-bread complete documentation. Docweaver is inspired by Laravel's very own documentation.
 
 ---
 
 <a name="features"></a>
 ## Top Features
 
-Doc Weaver provides the following features and more out of the box.
+Docweaver provides the following features and more out of the box.
 
 - Multi-product support
-    - Doc Weaver supports multiple products out-the-box. Just create your product folders and drop in your documentation version directories.
+    - Docweaver supports multiple products out-the-box. Just create your product folders and drop in your documentation version directories.
 - Plug and play
     - Just install and configure and you're golden! *(approx. 2min)*
 
