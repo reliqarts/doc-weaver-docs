@@ -21,6 +21,13 @@ Once this has finished, you will need to add the service provider to the provide
 ReliQArts\DocWeaver\DocWeaverServiceProvider::class,
 ```
 
+Ensure that your applications public storage directory is linked and assessible via the browser.
+
+```bash 
+php artisan storage:link
+```
+see: https://laravel.com/docs/5.5/filesystem
+
 Finally, publish package resources and configuration:
 
 ```bash

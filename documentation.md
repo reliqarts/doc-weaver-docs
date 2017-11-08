@@ -3,3 +3,5 @@
 - ## Getting Started
     - [Installation](/docs/{{version}}/installation)
     - [Configuration](/docs/{{version}}/configuration)
+    - [Assets](/docs/{{version}}/assets)
+    - [Utilities](/docs/{{version}}/utilities)

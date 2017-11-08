@@ -1,0 +1,3 @@
+name: Docweaver
+description: Simple, configurable Laravel 5.x product documentation.
+image: "{{docs}}/images/inline-preview.png"
