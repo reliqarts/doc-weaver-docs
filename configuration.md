@@ -12,8 +12,8 @@ Set the desired environment variables so the package knows your image model, con
 
 Example environment config:
 ```bash
-DOC_WEAVER_ROUTE_PREFIX=docs
-DOC_WEAVER_DIR=resources/docs
+DOCWEAVER_ROUTE_PREFIX=docs
+DOCWEAVER_DIR=resources/docs
 ```
 
 These variables, and more are explained within the [config](https://github.com/reliqarts/docweaver/blob/master/config/config.php) file.
@@ -28,7 +28,7 @@ The documentation directory is the place where you put your project documentatio
 
 Each project directory should contain seperate folders for each documented version. Each version must have at least two (2) markdown files, namely `documentation.md` and `installation.md`, which serve as the sidebar and initial documentation pages respectively.
 
-```bash
+```
 [doc dir]
     │
     └─── Project One
