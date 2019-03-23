@@ -2,13 +2,13 @@
 
 Install via composer; in console: 
 ```bash
-composer require reliqarts/docweaver
+composer require reliqarts/laravel-docweaver
 ``` 
 or require in *composer.json*:
-```javascript
+```json
 {
     "require": {
-        "reliqarts/docweaver": "^2.0"
+        "reliqarts/laravel-docweaver": "^2.0"
     }
 }
 ```
@@ -24,11 +24,11 @@ see: https://laravel.com/docs/master/filesystem
 Finally, publish package resources and configuration:
 
 ```bash
-php artisan vendor:publish --provider="ReliQArts\Docweaver\ServiceProvider"
+php artisan vendor:publish --provider="ReliqArts\Docweaver\ServiceProvider"
 ``` 
 
-You may opt to publish only configuration by using the `docweaver:config` tag:
+You may opt to publish only configuration by using the `docweaver-config` tag:
 
 ```bash
-php artisan vendor:publish --provider="ReliQArts\Docweaver\ServiceProvider" --tag="docweaver:config"
+php artisan vendor:publish --provider="ReliqArts\Docweaver\ServiceProvider" --tag="docweaver-config"
 ``` 
